@@ -181,7 +181,7 @@ const kittyNeko = new Kitty(1, 'kitty', 'orange')
 
 //before using generics
 
-/**
+/**.....
  * function getArray(items:any[]):any[] {
  * return new Array().concat(items)
  * }
@@ -206,10 +206,11 @@ strArray.push('any') //it will work but I can't push other types as it's set to 
 
 
 /**
- * 
+ *
  * generics are build to use reusable components
  */
 
+//later will use typescript for react
 
 
 
