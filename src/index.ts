@@ -8,7 +8,8 @@ let namePerson: string = 'kitty'
 
 let isCoding: boolean = true
 
-let nyaw: any = 'hello'
+let nyaw: any = 'hello' //The value type any can be changed to any type later.
+
 
 nyaw = true
 
@@ -23,7 +24,7 @@ let anyTypeArray: any[] = [1, 'one', true] //any type array
 
 //tuple
 
-let cats: [number, string, boolean] = [1, 'kitty', true] //saying what kind of type taking before 
+let cats: [number, string, boolean] = [1, 'kitty', true] //saying what kind of type taking before //You can specify exact types inside array with tuples
 
 //tuple array type within array 
 
